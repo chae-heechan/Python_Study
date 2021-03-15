@@ -1,10 +1,10 @@
-import sys
-print("Python", "Java", "JavaScript", sep=" vs ")
-print("Python", "Java", sep=",", end="?")
-print("무엇이 더 재미있을까요?")
+# import sys
+# print("Python", "Java", "JavaScript", sep=" vs ")
+# print("Python", "Java", sep=",", end="?")
+# print("무엇이 더 재미있을까요?")
 
-print("Python", "Java", file=sys.stdout)
-print("Python", "Java", file=sys.stderr)
+# print("Python", "Java", file=sys.stdout)
+# print("Python", "Java", file=sys.stderr)
 
 # 시험 성적
 scores = {"수학": 0, "영어": 50, "코딩":100}
