@@ -25,6 +25,8 @@ class ArrackUnit:
 
 
 firebat1 = ArrackUnit("파이어벳", 50, 16)
+ghost1 = ArrackUnit("고스트", 40, 10)
 firebat1.attack("5시")
 firebat1.damaged(25)
 firebat1.damaged(25)
+ghost1.attack("12시")
