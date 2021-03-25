@@ -45,6 +45,8 @@ class FlyableAttackUnit(AttackUnit, Flyable):
 
 vulture = AttackUnit("벌쳐", 80, 10, 20)
 battlecruiser = FlyableAttackUnit("배틀크루저", 500, 25, 3)
+firebat1 = AttackUnit("파이어벳", 40, 5, 25)
 
 vulture.move("11시")
 battlecruiser.move("9시")
+firebat1.move("3시")
