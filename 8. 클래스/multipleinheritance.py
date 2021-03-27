@@ -35,3 +35,5 @@ class FlyableAttackUnit(AttackUnit, Flyable):
 
 valkyrie = FlyableAttackUnit("발키리", 200, 6, 5)
 valkyrie.fly(valkyrie.name, "3시")
+battlecruiser = FlyableAttackUnit("배틀크루저", 500, 50, 3)
+battlecruiser.fly(battlecruiser.name, "1시")
