@@ -14,3 +14,4 @@
 
 name = "Jim"
 print(dir(name))
+print(dir(name))
